@@ -3,6 +3,7 @@ from django.template import RequestContext
 from django.shortcuts import render_to_response
 from models_test.models import Contact
 from django.contrib import auth
+from django.contrib.auth.decorators import login_required
 
 
 def index(request):
@@ -21,6 +22,7 @@ def index(request):
     return render_to_response('index.html', context_dict)
 
 
+@login_required(login_url='/auth/login/')
 def contacts(request):
     return render_to_response('contacts.html', {'contacts': Contact.objects.all(),
                                                 'user': auth.get_user(request)})

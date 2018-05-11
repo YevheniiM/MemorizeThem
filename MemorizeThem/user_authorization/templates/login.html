@@ -12,7 +12,20 @@
                 {% if login_error %}
                     <label class="error">{{ login_error }}</label>
                 {% endif %}
+            <div class="row">
+
                 <p><input type="submit" class="button expanded" value="Login"></p>
+
+                {% if request.GET.next %}
+                <input type="hidden" name="next" value="{{ request.GET.next }}">
+                {% endif %}
+
+                <button type="button" class="button secondary expanded wide">
+                    <a style="color: white" href="/auth/registration">Registration</a>
+                </button>
+
+            </div>
+
         </form>
 
 {% endblock %}
