@@ -1,0 +1,39 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MemorizeThem</title>
+    <link rel="stylesheet" type="text/css" href="{%static 'css/foundation.css'%}">
+</head>
+<body>
+
+<div class="top-bar">
+    <div class="top-bar-right">
+        <ul class="menu">
+            <li>
+                <button type="button" class="button">
+                    {% if user.username %}
+                        <a href="/auth/logout/" style="color: white">Выйти ({{ user.username }})</a>
+                    {% else %}
+                        <a href="/auth/login/" style="color: white">Войти</a>
+                    {% endif %}
+                </button>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div style="margin-bottom: 50px"><h1><a href="/">Main Page</a></h1></div>
+
+<div class="row">
+    {% block contact %}{% endblock %}
+</div>
+
+
+{% block login %}{% endblock %}
+
+
+</body>
+</html>

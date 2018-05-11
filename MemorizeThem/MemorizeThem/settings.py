@@ -18,6 +18,8 @@ PROJECT_PATH = os.path.join(SETTINGS_DIR, os.pardir)
 PROJECT_PATH = os.path.abspath(PROJECT_PATH)
 
 TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
+MODELS_TEST_TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'models_test/templates')
+# AUTHORIZATION_TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'author/templates')
 STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
 
 DATABASE_PATH = os.path.join(PROJECT_PATH, 'models.db')
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
+    'user_authorization'
 ]
 
 MIDDLEWARE = [
@@ -65,7 +68,8 @@ ROOT_URLCONF = 'MemorizeThem.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [TEMPLATE_PATH],
+        'DIRS': [TEMPLATE_PATH,
+                 MODELS_TEST_TEMPLATE_PATH],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -131,5 +135,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
+
+STATIC_ROOT = ''
 
 STATIC_URL = '/static/'

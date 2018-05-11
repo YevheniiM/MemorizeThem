@@ -7,7 +7,7 @@ class Contacts:
     def __init__(self, contacts_list):
         """
 
-        :param contacts: list()
+        :param models_test: list()
 
         """
         Contacts.set_contacts(contacts_list)

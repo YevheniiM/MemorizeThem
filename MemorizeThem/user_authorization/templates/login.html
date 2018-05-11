@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+
+{% block login %}
+
+        <form class="log-in-form" action="/auth/login/" method="post">
+            {% csrf_token %}
+                <label for="username">Name</label>
+                <input type="text" name="username" id="username">
+
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                {% if login_error %}
+                    <label class="error">{{ login_error }}</label>
+                {% endif %}
+                <p><input type="submit" class="button expanded" value="Login"></p>
+        </form>
+
+{% endblock %}

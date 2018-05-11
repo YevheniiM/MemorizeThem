@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+
+{% block contact %}
+
+    {% if contacts %}
+        {% for contact in contacts %}
+            <h4>
+                <a href="/contacts/get/{{contact.id}}/">
+                    {{ contact.name }} {{ contact.surname }} {{ contact.patronymic }}
+                </a>
+            </h4>
+            <hr>
+        {% endfor %}
+    {% else %}
+            <strong>There are no contacts to present.</strong>
+    {% endif %}
+
+{% endblock %}

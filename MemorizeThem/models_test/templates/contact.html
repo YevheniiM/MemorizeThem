@@ -1,0 +1,31 @@
+{% extends 'main.html' %}
+
+{% block contact %}
+    {% if contact %}
+            <ul>
+                <li><h3>{{ contact.name }}, {{ contact.surname }}, {{ contact.patronymic }}</h3></li>
+                <li>Address:
+                    <ul>
+                        <li>Country: {{ contact.address.country }}</li>
+                        <li>City: {{ contact.address.city }}</li>
+                        <li>Street: {{ contact.address.street }}</li>
+                        <li>House number: {{ contact.address.house_number }}</li>
+                        <li>Flat number: {{ contact.address.flat_number }}</li>
+                    </ul>
+                </li>
+                <li>Email: {{ contact.email }}</li>
+                <li>Mobile phone: {{ contact.mobile_phone }}</li>
+                <li>Work phone: {{ contact.work_phone }}</li>
+                <li>Home phone: {{ contact.home_phone }}</li>
+                <li>Birthday: {{ contact.email }}</li>
+                <li>Email: {{ contact.email }}</li>
+                <li>Gender: {{ contact.gender }}</li>
+                <li>Biography: {{ contact.biography }}</li>
+                <li>Interests: {{ contact.interests }}</li>
+                <li>Photo: {{ contact.photo }}</li>
+            </ul>
+                <hr>
+        {% else %}
+            <strong>There are no contacts to present.</strong>
+    {% endif %}
+{% endblock %}
