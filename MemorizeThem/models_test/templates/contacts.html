@@ -1,18 +1,22 @@
 {% extends 'main.html' %}
 
 {% block contact %}
-
+<div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-3">
     {% if contacts %}
         {% for contact in contacts %}
-            <h4>
-                <a href="/contacts/get/{{contact.id}}/">
-                    {{ contact.name }} {{ contact.surname }} {{ contact.patronymic }}
-                </a>
-            </h4>
-            <hr>
+            <div class="cell">
+                <div class="callout">
+                    <p>{{contact.name}} {{contact.patronymic}}</p>
+                    <div style="height: 250px; margin: 5px; position: relative;">
+                        <img src="{{contact.photo}}" style="border-radius: 10px;">
+                    </div>
+                    <p class="lead">{{contact.mobile_phone}}</p>
+                <p class="subheader">{{contact.email}}</p>
+            </div>
+          </div>
         {% endfor %}
     {% else %}
             <strong>There are no contacts to present.</strong>
     {% endif %}
-
+</div>
 {% endblock %}

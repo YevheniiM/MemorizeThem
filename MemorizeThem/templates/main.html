@@ -9,34 +9,125 @@
 </head>
 <body>
 
-<div class="top-bar">
-    <div class="top-bar-right">
-        <ul class="menu">
-            <li>
-                <button type="button" class="button">
-                    {% if user.username %}
-                        <a href="/auth/logout/" style="color: white">Выйти ({{ user.username }})</a>
-                    {% else %}
-                        <a href="/auth/login/" style="color: white">Войти</a>
-                    {% endif %}
-                </button>
-            </li>
-        </ul>
+<!-- Navigation -->
+<div class="top-bar" id="realEstateMenu">
+  <div class="top-bar-left">
+    <ul class="menu">
+      <li class="menu-text">Test</li>
+      <li><a href="#">Test</a></li>
+      <li><a href="#">Test</a></li>
+      <li><a href="#">Test</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><a href="#">My Account</a></li>
+      <li>
+            {% if user.username %}
+                <a href="/auth/logout/" class="button">Logout ({{ user.username }})</a>
+            {% else %}
+                <a href="/auth/login/" class="button">Login</a>
+            {% endif %}
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- /Navigation -->
+
+<br>
+<article class="grid-container">
+  <div class="grid-x grid-margin-x">
+
+    <div class="large-12 cell text-center">
+      <h2 class="large-text-center">When We Are Connected To Others, We Become Better People</h2>
+      <p class="subheader">There is no such thing as a 'self-made' man. We are made up of thousands of others. Everyone who has ever done a kind deed for us, or spoken one word of encouragement to us, has entered into the make-up of our character and of our thoughts, as well as our success.</p>
     </div>
+
+
+
+  </div>
+
+<div class="">
+  <hr>
 </div>
 
-
-
-<div style="margin-bottom: 50px"><h1><a href="/">Main Page</a></h1></div>
-
-<div class="row">
-    {% block contact %}{% endblock %}
+<div class="">
+  <h3>List of your friends</h3>
+  <br>
 </div>
+
+{% block contact %}{% endblock %}
 
 <div class="log-in-div">
     {% block login %}{% endblock %}
 </div>
 
+<div class="">
+  <a class="button hollow expanded">Load More</a>
+</div>
+</article>
+<footer>
+  <div class="grid-x expanded callout secondary">
+
+    <div class="small-6 large-3 cell">
+      <p class="lead">Offices</p>
+      <ul class="menu vertical">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+      </ul>
+    </div>
+
+    <div class="small-6 large-3 cell">
+      <p class="lead">Solar Systems</p>
+      <ul class="menu vertical">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+      </ul>
+    </div>
+
+    <div class="small-6 large-3 cell">
+      <p class="lead">Contact</p>
+      <ul class="menu vertical">
+        <li><a href="#"><i class="fi-social-twitter"></i> Twitter</a></li>
+        <li><a href="#"><i class="fi-social-facebook"></i> Facebook</a></li>
+        <li><a href="#"><i class="fi-social-instagram"></i> Instagram</a></li>
+        <li><a href="#"><i class="fi-social-pinterest"></i> Pinterest</a></li>
+      </ul>
+    </div>
+
+    <div class="small-6 large-3 cell">
+      <p class="lead">Offices</p>
+      <ul class="menu vertical">
+        <li><a href="#">One</a></li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li>
+        <li><a href="#">Four</a></li>
+      </ul>
+    </div>
+
+  </div>
+  <div class="grid-x">
+
+    <div class="medium-6 cell">
+      <ul class="menu align-center">
+        <li><a href="#">Legal</a></li>
+        <li><a href="#">Partner</a></li>
+        <li><a href="#">Explore</a></li>
+      </ul>
+    </div>
+
+    <div class="medium-6 cell">
+      <ul class="menu align-center">
+        <li class="menu-text">Copyright 2018</li>
+      </ul>
+    </div>
+  </div>
+
+</footer>
 
 </body>
 </html>
