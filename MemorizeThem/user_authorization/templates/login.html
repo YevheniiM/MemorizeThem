@@ -1,7 +1,7 @@
 {% extends 'main.html' %}
 
 {% block login %}
-
+<div class="log-in-div">
         <form class="log-in-form" action="/auth/login/" method="post">
             {% csrf_token %}
                 <label for="username">Name</label>
@@ -21,11 +21,13 @@
                 {% endif %}
 
                 <button type="button" class="button secondary expanded wide">
-                    <a style="color: white" href="/auth/registration">Registration</a>
+                    <a style="color: white" href="/auth/registration/">Registration</a>
                 </button>
 
             </div>
 
         </form>
+    </div>
+
 
 {% endblock %}

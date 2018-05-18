@@ -2,29 +2,100 @@
 
 {% block contact %}
     {% if contact %}
-            <ul>
-                <li><h3>{{ contact.name }}, {{ contact.surname }}, {{ contact.patronymic }}</h3></li>
-                <li>Address:
-                    <ul>
-                        <li>Country: {{ contact.address.country }}</li>
-                        <li>City: {{ contact.address.city }}</li>
-                        <li>Street: {{ contact.address.street }}</li>
-                        <li>House number: {{ contact.address.house_number }}</li>
-                        <li>Flat number: {{ contact.address.flat_number }}</li>
-                    </ul>
-                </li>
-                <li>Email: {{ contact.email }}</li>
-                <li>Mobile phone: {{ contact.mobile_phone }}</li>
-                <li>Work phone: {{ contact.work_phone }}</li>
-                <li>Home phone: {{ contact.home_phone }}</li>
-                <li>Birthday: {{ contact.email }}</li>
-                <li>Email: {{ contact.email }}</li>
-                <li>Gender: {{ contact.gender }}</li>
-                <li>Biography: {{ contact.biography }}</li>
-                <li>Interests: {{ contact.interests }}</li>
-                <li>Photo: {{ contact.photo }}</li>
-            </ul>
-                <hr>
+        <div style="margin: 5px; position: relative;">
+            <img src="{{contact.photo}}" style="border-radius: 10px;">
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Name</td>
+                    {% if contact.name %}
+                        <td>{{ contact.name }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    {% if contact.surname %}
+                        <td>{{ contact.surname }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Patronymic</td>
+                    {% if contact.patronymic %}
+                        <td>{{ contact.patronymic }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Address</td>
+
+                    {% if contact.address.country or contact.address.city or contact.address.street or address.house_number or contact.address.flat_number %}
+                        <td>
+                            {{ contact.address.country }},
+                            {{ contact.address.city }},
+                            {{ contact.address.street }},
+                            {{ contact.address.house_number }},
+                            {{ contact.address.flat_number }}
+                        </td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    {% if contact.email %}
+                        <td>{{ contact.email }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Phones</td>
+
+                    {% if contact.mobile_phone or contact.work_phone or contact.home_phone %}
+                        <td>
+                            <p>Mobile phone: {{ contact.mobile_phone }}</p>
+                            <p>Work phone: {{ contact.work_phone }}</p>
+                            <p>Home phone: {{ contact.home_phone }}</p>
+                        </td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Job</td>
+                    {% if contact.job %}
+                        <td>{{ contact.job }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Biography</td>
+                    {% if contact.biography %}
+                        <td>{{ contact.biography }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+                <tr>
+                    <td>Interests</td>
+                    {% if contact.interests %}
+                        <td>{{ contact.interests }}</td>
+                    {% else %}
+                        <td>Nothing here</td>
+                    {% endif %}
+                </tr>
+            </tbody>
+        </table>
+        <a href="/contacts/edit/{{contact.id}}/" class="button" type="button" style="background-color: #0c3d5d; width: 100%; margin-bottom: 4px;">Edit</a>
+        <a href="/contacts/delete/{{contact.id}}/" class="button" type="button" style="background-color: #cc1111; width: 100%"
+                    onclick="return confirm('Are you sure you want to delete this?')">Delete</a>
         {% else %}
             <strong>There are no contacts to present.</strong>
     {% endif %}

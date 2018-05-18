@@ -21,6 +21,7 @@ TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'templates')
 MODELS_TEST_TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'models_test/templates')
 # AUTHORIZATION_TEMPLATE_PATH = os.path.join(PROJECT_PATH, 'author/templates')
 STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
+STATIC_PATH_FOR_CREDENTIALS = os.path.join(PROJECT_PATH, 'google_auth/static')
 
 DATABASE_PATH = os.path.join(PROJECT_PATH, 'models.db')
 
@@ -50,7 +51,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'user_authorization'
+    'user_authorization',
+    'google_auth'
 ]
 
 MIDDLEWARE = [
@@ -83,7 +85,7 @@ TEMPLATES = [
 ]
 
 STATICFILES_DIRS = [
-    STATIC_PATH,
+    STATIC_PATH, STATIC_PATH_FOR_CREDENTIALS
 ]
 
 WSGI_APPLICATION = 'MemorizeThem.wsgi.application'

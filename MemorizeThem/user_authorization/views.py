@@ -4,6 +4,7 @@ from django.template.context_processors import csrf
 from django.contrib import messages
 from django.contrib.auth.forms import UserCreationForm
 
+
 # Create your views here.
 def login(request):
     args = {}
@@ -26,8 +27,8 @@ def login(request):
 
 
 def logout(request):
-        auth.logout(request)
-        return redirect("/")
+    auth.logout(request)
+    return redirect("/")
 
 
 def registration(request):

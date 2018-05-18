@@ -1673,15 +1673,6 @@ textarea {
     .grid-margin-y > .large-12 {
       height: calc(100% - 1.875rem); } }
 
-.log-in-form {
-  border: 1px solid #cacaca;
-  border-radius: 0;
-}
-
-.log-in-div {
-  padding: 6% 23%;
-}
-
 .grid-frame {
   overflow: hidden;
   position: relative;
@@ -2943,16 +2934,6 @@ legend {
     margin: 0;
     margin-left: -0.1875rem;
     padding: 0 0.1875rem; }
-
-
-.img {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
 
 select {
   height: 2.4375rem;

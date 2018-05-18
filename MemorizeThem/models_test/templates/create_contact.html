@@ -1,0 +1,12 @@
+{% extends 'main.html' %}
+
+{% block contact %}
+
+    <h2>Create new contact</h2>
+    <form class="site-form" action="{% url 'models_test:create_contact' %}" method="post">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" class="button" style="width: 100%" value="Create">
+    </form>
+
+{% endblock %}
