@@ -1,8 +1,3 @@
-import httplib2
-from apiclient import discovery
-from credentials import get_credentials
-
-
 class Connections:
     def __init__(self):
         self.credentials = get_credentials()

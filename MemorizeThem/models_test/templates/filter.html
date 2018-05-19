@@ -1,0 +1,14 @@
+{% extends 'contacts.html' %}
+
+
+{% block filter %}
+
+    <div style="display: inline-block; float: right; margin-right: 5px; margin-top: 1px">
+      <form method="post">
+        {% csrf_token %}
+        <input type="text" style="position: relative; alignment: center" name="filter_field">
+        <input type="submit" style="display: none">
+      </form>
+    </div>
+
+{% endblock %}

@@ -21,7 +21,6 @@ from django.urls import include
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^models/', include('models_test.urls')),
     url(r'^auth/', include('user_authorization.urls')),
     url(r'^contacts/', include('models_test.urls')),
     url(r'^$', views.title, name='title')

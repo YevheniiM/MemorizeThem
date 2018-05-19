@@ -98,3 +98,33 @@ def edit_contact(request, contact_id):
 
     return render(request, 'edit_contact.html', {'form': form,
                                                  'contact_id': contact_id})
+
+
+def filter_by_city(request):
+    if request.POST:
+        data = request.POST.get('filter_field')
+        print(data)
+        return render(request, 'contacts.html', {'city': data,
+                                                 'contacts': Contact.objects.filter(owner_id=auth.get_user(request).id)})
+    else:
+        return render(request, 'filter.html', {'contacts': Contact.objects.filter(owner_id=auth.get_user(request).id)})
+
+
+def filter_by_country(request):
+    if request.POST:
+        data = request.POST.get('filter_field')
+        print(data)
+        return render(request, 'contacts.html', {'country': data,
+                                                 'contacts': Contact.objects.filter(owner_id=auth.get_user(request).id)})
+    else:
+        return render(request, 'filter.html', {'contacts': Contact.objects.filter(owner_id=auth.get_user(request).id)})
+
+
+def filter_by_job(request):
+    if request.POST:
+        data = request.POST.get('filter_field')
+        print(data)
+        return render(request, 'contacts.html', {'job': data,
+                                                 'contacts': Contact.objects.filter(owner_id=auth.get_user(request).id)})
+    else:
+        return render(request, 'filter.html', {'contacts': Contact.objects.filter(owner_id=auth.get_user(request).id)})
