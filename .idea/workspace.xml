@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71471891-87af-4f37-9c1d-34dc687704e3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/_10_tenth_report/tenth_report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_11_eleventh_report/eleventh_report.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_12_twelvth_report/1_ADT_realizaton.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_12_twelvth_report/2_Data_Structure_relization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_12_twelvth_report/3_дані_для_обробки.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_12_twelvth_report/4_main_module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/_12_twelvth_report/twelvth_report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemorizeThem/MemorizeThem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/MemorizeThem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemorizeThem/models.db" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/templates/filter.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/migrations/0002_auto_20180323_1500.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/migrations/0002_auto_20180323_1500.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/migrations/0003_auto_20180323_1502.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/migrations/0003_auto_20180323_1502.py" afterDir="false" />
@@ -25,20 +14,6 @@
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MemorizeThem/models_test/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/models_test/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemorizeThem/static/society.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/static/society.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemorizeThem/templates/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/templates/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MemorizeThem/templates/title.html" beforeDir="false" afterPath="$PROJECT_DIR$/MemorizeThem/templates/title.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/.idea/PeopleAPI.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/client_id.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/contact.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/contacts.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/credentials.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PeopleAPI/quickstart.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,75 +60,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MemorizeThem/models_test/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="109" column="118" selection-start-line="109" selection-start-column="118" selection-end-line="109" selection-end-column="118" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MemorizeThem/models_test/templates/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#1;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#1;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#1;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#div#3;n#div#1;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MemorizeThem/templates/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1224">
-              <caret selection-end-column="22" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#li#1;n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -274,18 +181,6 @@
               <item name="MemorizeThemCourseWork" type="462c0819:PsiDirectoryNode" />
               <item name="MemorizeThem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MemorizeThemCourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemorizeThemCourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="MemorizeThem" type="462c0819:PsiDirectoryNode" />
-              <item name="google_auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MemorizeThemCourseWork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MemorizeThemCourseWork" type="462c0819:PsiDirectoryNode" />
-              <item name="MemorizeThem" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -366,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1526659914516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fourth report added + filter">
+      <created>1526750358384</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526750358384</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -380,7 +282,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -443,7 +344,8 @@
     <MESSAGE value="registration was added" />
     <MESSAGE value="some reports added + other files" />
     <MESSAGE value="functional added" />
-    <option name="LAST_COMMIT_MESSAGE" value="functional added" />
+    <MESSAGE value="fourth report added + filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="fourth report added + filter" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MemorizeThem/google_auth/urls.py">
@@ -830,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MemorizeThem/models_test/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="109" column="118" selection-start-line="109" selection-start-column="118" selection-end-line="109" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MemorizeThem/templates/title.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -868,8 +760,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MemorizeThem/models_test/templates/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        <state relative-caret-position="316">
+          <caret line="97" column="6" selection-start-line="97" selection-start-column="6" selection-end-line="97" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
@@ -897,6 +789,16 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#3;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MemorizeThem/models_test/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="109" column="118" selection-start-line="109" selection-start-column="118" selection-end-line="109" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
