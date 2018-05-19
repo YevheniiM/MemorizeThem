@@ -37,6 +37,7 @@ MemorizeThem consists of other smaller application, such as:
 Some basic instructions, that you can follow to get strated with MemorizeThem.
 
 1. Press [Login] to login in (if you are not registered, press the registration button at the login form)
+![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/login.jpg)
 2. Press [My friends] to see all your contacts.
 3. Press [Import Contacts] to import contact from your gmail account.
 4. Press [Create Contact] to create new contact.
