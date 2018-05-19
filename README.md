@@ -1,8 +1,7 @@
 # MemorizeThem
 
 > There is no such thing as a 'self-made' man. We are made up of thousands of others. Everyone who has ever done a kind deed for us, or spoken one word of encouragement to us, has entered into the make-up of our character and of our thoughts, as well as our success.
-
-> (с) George Matthew Adams
+(с) George Matthew Adams
 
 ### About MemorizeThem
 The main goal of my web application is to keep your **circle of friends** up to date. Always **be in touch** with people that you know and never forgot such things as birth date or some facts from their lives.
