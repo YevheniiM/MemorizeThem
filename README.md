@@ -37,13 +37,32 @@ MemorizeThem consists of other smaller application, such as:
 Some basic instructions, that you can follow to get strated with MemorizeThem.
 
 1. Press [Login] to login in (if you are not registered, press the registration button at the login form)
-![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/login.jpg)
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/login.jpg)
 2. Press [My friends] to see all your contacts.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/my_friends.jpg)
 3. Press [Import Contacts] to import contact from your gmail account.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/import_contacts.jpg)
 4. Press [Create Contact] to create new contact.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/create_contact.jpg)
 5. Press [Delete All Contacts] to delete all your contacts.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/delete_all_contacts.jpg)
 6. Press [Sort by] and choose which filter you want to apply for your contacts to be sorted.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/sort_by.jpg)
 7. Press [Details] to see information details about your contacts.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/details.jpg)
 8. Press [Delete] button on the details page to delete the contact.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/delete.jpg)
 9. Press [Edit] to edit the information about your contact.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/edit.jpg)
 10. Press [MemorizeThem] to return to the main page.
+
+	![alt text](https://github.com/YevheniiMoroz/MemorizeThemCourseWork/blob/master/docs/_0_pictures/memorize_them.jpg)
